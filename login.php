@@ -8,23 +8,23 @@
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Open+Sans&display=swap" rel="stylesheet">
     <title>Login</title>
     <link type="text/css" rel="stylesheet" href="style.css"/>
+    <script src="java.js"> </script>
 </head>
-<body>
-
-
-
-<div class="loginbox">
-    <form action="http://localhost:1234/zienzijn/admin_login.php" method="post">
-        <img src="avatar.png" class="avatar">
-        <h1>Hier Inloggen</h1>
-        <p>Gebruikersnaam</p>
-        <input type="text" name="input_username" placeholder="Voer Gebruikersnaam in">
-        <p>Wachtwoord</p>
-        <input type="password" name="input_password" placeholder="Voer Wachtwoord in">
-        <input type="submit" name="submit_login" value="Inloggen">
-        <br>
-    </form>
-</div>
+<body onload=tick()>
+<FORM name=animation><TEXTAREA name=cheerleader rows=5 cols="20"></TEXTAREA> <BR><INPUT onclick=javascript:tick() type=button value="Redo">
+</FORM>
+    <div class="loginbox">
+        <form action="http://localhost:1234/zienzijn/admin_login.php" method="post">
+            <img src="avatar.png" class="avatar">
+            <h1>Hier Inloggen</h1>
+            <p>Gebruikersnaam</p>
+            <input type="text" name="input_username" placeholder="Voer Gebruikersnaam in">
+            <p>Wachtwoord</p>
+            <input type="password" name="input_password" placeholder="Voer Wachtwoord in">
+            <input type="submit" name="submit_login" value="Inloggen">
+            <br>
+        </form>
+    </div>
 
 
 
